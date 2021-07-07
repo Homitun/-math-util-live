@@ -16,7 +16,11 @@ public class MathUtilLive {
         //MathUtil.getFactorial(-5); ném ngoại lệ thật rồi, ai biểu cà chớn 
         System.out.println("expected: 6! = 720; actual:"+ MathUtil.getFactorial(6));
         System.out.println("expected: 0! = 1; actual:"+ MathUtil.getFactorial(0));
+        // thêm code sau lần đầu tiên làm chuyện ấy- code lên server 5: 35pm 7/7/2021
+        System.out.println("expected: 1! = 1; actual:"+ MathUtil.getFactorial(1));
+        System.out.println("expected: 3! = 6; actual:"+ MathUtil.getFactorial(3));
         
+       
     }
     
 }
